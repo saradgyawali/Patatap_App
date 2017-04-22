@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+	<title>Patatap_App</title>
+	<script type="text/javascript" src="paper-full.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="circles.css">
+
+	<script type="text/paperscript" canvas="myCanvas">
+
+	function onKeyDown(event) {
+		new Path.Circle(new Point(100,100), 10).fillColor = 'yellow';
+
+		console.log(view.size.height);
+		console.log(view.size.width);
+	
+};
+
+	</script>
+
+</head>
+<body>
+	<canvas id="myCanvas" resize></canvas>
+</body>
+</html>
